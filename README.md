@@ -17,14 +17,9 @@
 
 <br />
 
-
+<!--
 ### Skills and Language:
-
-<button type="button">Visual Studio</button>
-<button type="button">C++</button>
-<button type="button">Blender</button>
-<button type="button">Unity 3D</button>
-<button type="button">GIMP</button>
+-->
 
 
 [twitter]: https://twitter.com/mr_shivamgarg
