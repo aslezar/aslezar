@@ -1,6 +1,6 @@
 ### Hi there 👋
- Myselg Shivam Garg
- Coder|Student|Learner
+ <h2>Myself Shivam Garg</h2>
+ <h1>Coder|Student|Learner</h1>
 <!--
 **mr-shivamgarg/mr-shivamgarg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
