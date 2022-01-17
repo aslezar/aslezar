@@ -1,7 +1,9 @@
 ### Hi there, I'm Shivam Garg 👋
 
 ## Programmer | Coder | Student | Enthusiastic
+<!-- 
 - 😎 I'm currently working on a []
+-->
 - 🌱 I'm currently learning Web Development
 - 👬 I'm always ready to work on projects, feel free to contact me.
 - 🥅 My Goal: To start contributing in Open source project.
@@ -9,7 +11,16 @@
 
 ### Connect with me:
 
-[<img align="left" alt="mr_shivamgarg" width=22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+<br />
+
+
+[twitter]: https://twitter.com/mr_shivamgarg
+[linkedin]: https://www.linkedin.com/in/shivam-garg-4495471b7/
+[instagram]: https://www.instagram.com/mr_shivamgarg/
 
 <!--
 **mr-shivamgarg/mr-shivamgarg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
