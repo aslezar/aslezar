@@ -23,7 +23,7 @@
 
 
 [twitter]: https://twitter.com/mr_shivamgarg
-[linkedin]: https://www.linkedin.com/in/shivam-garg-4495471b7/
+[linkedin]: https://www.linkedin.com/in/mrshivamgarg/
 [instagram]: https://www.instagram.com/mr_shivamgarg/
 
 <!--
