@@ -2,11 +2,14 @@
  <h1>
   Hi, I'm Shivam Garg 👋
  </h1>
- <br><hr>
+</center>
+<br>
+<center>
  <h2>
   Programmer|Student|Learner|Enthusiastic
  </h2>
 </center>
+
 
 <!--
 **mr-shivamgarg/mr-shivamgarg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
