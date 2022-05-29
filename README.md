@@ -22,9 +22,9 @@
 -->
 
 
-[twitter]: https://twitter.com/mr_shivamgarg
+//[twitter]: https://twitter.com/mr_shivamgarg
 [linkedin]: https://www.linkedin.com/in/mrshivamgarg/
-[instagram]: https://www.instagram.com/mr_shivamgarg/
+//[instagram]: https://www.instagram.com/mr_shivamgarg/
 
 <!--
 **mr-shivamgarg/mr-shivamgarg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
