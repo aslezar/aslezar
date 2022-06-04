@@ -1,4 +1,4 @@
-### Hi there, I'm Shivam Garg 👋
+### Hi there, I'm Shivam 👋
 
 ## Programmer | Coder | Student | Enthusiastic
 <!-- 
