@@ -9,12 +9,10 @@
 - 🥅 My Goal: To start contributing in Open source project ASAP.
 - ⚡ Fun Fact: I love to make new friends.
 
+<!--
 ### Connect with me:
-<!--
 [<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
--->
 [<img align="left" alt="mr-shivamgarg | linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-<!--
 [<img align="left" alt="mr_shivamgarg | instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 -->
 
