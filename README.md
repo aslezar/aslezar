@@ -16,8 +16,6 @@
 [<img align="left" alt="mr_shivamgarg | instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 -->
 
-<br />
-
 <!--
 ### Skills and Language:
 -->
