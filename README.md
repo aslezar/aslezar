@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/ReactJS-61DAFB?style=flat&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-1572B6?style=flat&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-45A948?style=flat&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white" />
