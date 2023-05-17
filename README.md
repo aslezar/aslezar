@@ -1,15 +1,18 @@
 ### Hi there, I'm Shivam 👋
 
 ## Programmer | Coder | Student | Enthusiastic
-<!-- 
+
+<!--
 - 😎 I'm currently working on a []
 -->
+
 - 👬 I'm always ready to work on projects, feel free to contact me.
 - 🌱 I'm currently learning everything.
 - 🥅 My Goal: To start contributing in Open source project ASAP.
 - ⚡ Fun Fact: I love to make new friends.
 
 ## Skills
+
 <div style="display: flex;">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
@@ -25,28 +28,29 @@
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white" />
 </div>
 
-
-
 ## Projects
 
 Here are some of my projects that I have worked on:
 
-
--[Task-Manager-NodeJS](https://task-manager-nodejs-bqr0.onrender.com)- Task Manager Web App website allows users to keep track of their tasks, edit them, and delete them.
--[ShoppingCart-ComfyHouse](https://aslezar.github.io/shoopingcart-website/)- A frontend web page to show a basic implementation of shopping website.
--[terminal-Chess](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs).
+- [Task-Manager-NodeJS](https://task-manager-nodejs-bqr0.onrender.com) - Task Manager Web App website allows users to keep track of their tasks, edit them, and delete them.
+- [ShoppingCart-ComfyHouse](https://aslezar.github.io/shoopingcart-website/)- A frontend web page to show a basic implementation of shopping website.
+- [Terminal-Chess](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs).
+- [Cocktail-ReactJS](https://aslezar.github.io/Cocktails-reactJS/) - Love cocktails? website to show cocktails details all over the world.
+- [ColourGenerator-ReactJS](https://aslezar.github.io/colorGenerator-ReactJS/) - Get differnet shades of any colour.
+- [GroceryBud-ReactJS](https://aslezar.github.io/groceryBud-ReactJS/) - Manage your grocery list.
 
 ## Contact Me
-[<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-<!--
+
 [<img align="left" alt="mr-shivamgarg | linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+
+<!--
+[<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="mr_shivamgarg | instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 -->
 
 <!--
 ### Skills and Language:
 -->
-
 
 [twitter]: https://twitter.com/mr_shivamgarg
 [linkedin]: https://www.linkedin.com/in/mrshivamgarg/
