@@ -33,6 +33,7 @@
 Here are some of my projects that I have worked on:
 
 - [Task-Manager-NodeJS](https://task-manager-nodejs-bqr0.onrender.com) - Task Manager Web App website allows users to keep track of their tasks, edit them, and delete them.
+- [Sociopedia-MERN](https://sociopedia-rxw9.onrender.com/) - A social media app with login/register functionality. Create and like post, follw or unfollow friends.
 - [ShoppingCart-ComfyHouse](https://aslezar.github.io/shoopingcart-website/)- A frontend web page to show a basic implementation of shopping website.
 - [Terminal-Chess](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs).
 - [Cocktail-ReactJS](https://aslezar.github.io/Cocktails-reactJS/) - Love cocktails? website to show cocktails details all over the world.
