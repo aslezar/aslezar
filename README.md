@@ -36,9 +36,9 @@ Here are some of my projects that I have worked on:
 - [Sociopedia-MERN](https://sociopedia-rxw9.onrender.com/) - A social media app with login/register functionality. Create and like post, follw or unfollow friends. [Repo](https://github.com/aslezar/Sociopedia)
 - [ShoppingCart-ComfyHouse](https://aslezar.github.io/shoopingcart-website/)- A frontend web page to show a basic implementation of shopping website. [Repo](https://github.com/aslezar/shoopingcart-website)
 - [Terminal-Chess](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/Chess)
-- [Cocktail-ReactJS](https://aslezar.github.io/Cocktails-reactJS/) - Love cocktails? website to show cocktails details all over the world. [Repo]([https://github.com/aslezar/StockPrice](https://github.com/aslezar/Cocktails-reactJS))
-- [ColourGenerator-ReactJS](https://aslezar.github.io/colorGenerator-ReactJS/) - Get differnet shades of any colour. [Repo]([https://github.com/aslezar/StockPrice](https://github.com/aslezar/colorGenerator-ReactJS))
-- [GroceryBud-ReactJS](https://aslezar.github.io/groceryBud-ReactJS/) - Manage your grocery list. [Repo]([https://github.com/aslezar/StockPrice](https://github.com/aslezar/groceryBud-ReactJS))
+- [Cocktail-ReactJS](https://aslezar.github.io/Cocktails-reactJS/) - Love cocktails? website to show cocktails details all over the world. [Repo](https://github.com/aslezar/Cocktails-reactJS)
+- [ColourGenerator-ReactJS](https://aslezar.github.io/colorGenerator-ReactJS/) - Get differnet shades of any colour. [Repo](https://github.com/aslezar/colorGenerator-ReactJS)
+- [GroceryBud-ReactJS](https://aslezar.github.io/groceryBud-ReactJS/) - Manage your grocery list. [Repo](https://github.com/aslezar/groceryBud-ReactJS)
 
 ## Contact Me
 
