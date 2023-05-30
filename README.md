@@ -31,7 +31,7 @@
 ## Projects
 
 Here are some of my projects that I have worked on:
-
+- [StockPrice-MERN](https://github.com/aslezar/StockPrice)- webapp to show latest stockprice with google authentication
 - [Task-Manager-NodeJS](https://task-manager-nodejs-bqr0.onrender.com) - Task Manager Web App website allows users to keep track of their tasks, edit them, and delete them.
 - [Sociopedia-MERN](https://sociopedia-rxw9.onrender.com/) - A social media app with login/register functionality. Create and like post, follw or unfollow friends.
 - [ShoppingCart-ComfyHouse](https://aslezar.github.io/shoopingcart-website/)- A frontend web page to show a basic implementation of shopping website.
