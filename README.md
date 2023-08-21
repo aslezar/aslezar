@@ -31,6 +31,7 @@
 ## Projects
 
 Here are some of my projects that I have worked on:
+- [ShareSketch-MERN](https://sharesketch-kxge.onrender.com/)- An online whiteboard for you and your friends to draw together. [Repo](https://github.com/aslezar/ShareSketch)
 - [StockPrice-MERN](https://stockprice-eh6m.onrender.com/account/login)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/StockPrice)
 - [Task-Manager-NodeJS](https://task-manager-nodejs-bqr0.onrender.com) - Task Manager Web App website allows users to keep track of their tasks, edit them, and delete them. [Repo](https://github.com/aslezar/Task-Manager-NodeJS)
 - [Sociopedia-MERN](https://sociopedia-rxw9.onrender.com/) - A social media app with login/register functionality. Create and like post, follw or unfollow friends. [Repo](https://github.com/aslezar/Sociopedia)
