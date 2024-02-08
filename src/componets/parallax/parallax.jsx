@@ -8,7 +8,7 @@ const Parallax = ({ type }) => {
 		offset: ["start end", "end start"],
 	});
 	const yBg = useTransform(scrollYProgress, [0, 1], ["-25vh", "25vh"]);
-	const yText = useTransform(scrollYProgress, [0, 1], ["-50vh", "50vh"]);
+	const yText = useTransform(scrollYProgress, [0, 1], ["-40vh", "40vh"]);
 	return (
 		<div
 			className="parallax"
@@ -21,9 +21,9 @@ const Parallax = ({ type }) => {
 			}}
 		>
 			<motion.h1 style={{ y: yText }}>
-				{type === "services" ? "What we Do?" : "What we Did?"}
+				{type === "services" ? "What I Do?" : "What I Did?"}
 			</motion.h1>
-			<motion.div className="mountains"></motion.div>
+			{/* <motion.div className="mountains"></motion.div> */}
 			<motion.div
 				className="planets"
 				style={{

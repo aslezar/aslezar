@@ -13,11 +13,10 @@ const Cursor = () => {
 			window.removeEventListener("mousemove", mouseMove);
 		};
 	}, []);
-	// console.log(position);
 	return (
 		<motion.div
 			className="cursor"
-			animate={{ x: position.x + 10, y: position.y + 10 }}
+			animate={{ x: position.x + 8, y: position.y + 8 }}
 		></motion.div>
 	);
 };
