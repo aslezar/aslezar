@@ -4,11 +4,13 @@ import Parallax from "./componets/parallax/parallax";
 import Services from "./componets/services/Services";
 import Portfolio from "./componets/portfolio/Portfolio";
 import Contact from "./componets/contact/Contact";
+import Cursor from "./componets/cursor/Cursor";
 import "./app.scss";
 
 function App() {
 	return (
 		<>
+			<Cursor />
 			<section id="Homepage">
 				<Navbar />
 				<Hero />

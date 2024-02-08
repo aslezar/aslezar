@@ -4,7 +4,8 @@ import React from "react";
 
 const variants = {
 	initial: {
-		x: -500,
+		//set x to current screen width
+		x: (window.innerWidth * -1) / 2,
 		y: 100,
 		opacity: 0,
 	},
@@ -32,6 +33,7 @@ const Services = () => {
 			ref={ref}
 			// whileInView="animate"
 			animate={isInView ? "animate" : "initial"}
+			// animate={"animate"}
 		>
 			<motion.div className="textContainer" variants={variants}>
 				<p>
