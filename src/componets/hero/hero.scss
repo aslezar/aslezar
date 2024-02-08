@@ -7,17 +7,17 @@
 	background: linear-gradient(180deg, #0c0c1d, #111132);
 
 	.imageContainer {
-		height: 100%;
-		max-width: 50%;
+		height: 80%;
+		max-width: 40%;
 		position: absolute;
 		left: 0;
 		// right: 0;
-		top: 0;
+		// top: 0;
 		bottom: 0;
 
 		@include mobile {
-			height: 50%;
-			width: 100%;
+			height: 40%;
+			max-width: 80%;
 			top: unset;
 			bottom: 0;
 		}
@@ -30,41 +30,52 @@
 		}
 	}
 	.wrapper {
-		max-width: 1366px;
-		max-width: 50%;
+		max-width: 55%;
 		height: 100%;
 		margin-left: auto;
+		@include mobile {
+			margin-left: unset;
+			max-width: 100%;
+		}
 		.textContainer {
 			height: 100%;
 
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			gap: 40px;
+			gap: 20px;
 
 			@include mobile {
-				height: 50%;
+				height: 75%;
 				width: 100%;
 				gap: 20px;
-				align-items: center;
-				text-align: center;
+				padding: 20px;
+				// align-items: center;
+				// text-align: center;
 			}
 
 			h2 {
-				font-size: 50px;
-				color: rebeccapurple;
+				font-size: 52px;
+				color: #007bff;
 				letter-spacing: 5px;
-			}
-			h1 {
-				font-size: 60px;
 				@include mobile {
 					font-size: 36px;
+					margin-top: auto;
+				}
+			}
+			h1 {
+				font-size: 44px;
+				@include mobile {
+					font-size: 28px;
+					padding: 0px 40px;
+					margin-bottom: 8%;
+					margin-left: auto;
 				}
 			}
 			.buttons {
 				button {
 					padding: 20px;
-					border: 1px solid white;
+					border: 0.5px solid #007bff;
 					border-radius: 10px;
 					background-color: transparent;
 					color: white;
@@ -72,20 +83,28 @@
 					cursor: pointer;
 					font-weight: 300;
 				}
+				@include mobile {
+					margin: 0px auto;
+				}
 			}
 			img {
 				width: 50px;
+				@include mobile {
+					margin-top: auto;
+					margin-left: auto;
+					margin-right: 10%;
+				}
 			}
 		}
 	}
-	.slidingTextContainer {
-		position: absolute;
-		bottom: 0;
-		font-size: 25vh;
-		bottom: -40px;
-		white-space: nowrap;
-		color: #ffffff09;
-		width: 50%;
-		font-weight: bold;
-	}
+	// .slidingTextContainer {
+	// 	position: absolute;
+	// 	bottom: 0;
+	// 	font-size: 25vh;
+	// 	bottom: -40px;
+	// 	white-space: nowrap;
+	// 	color: #ffffff09;
+	// 	width: 50%;
+	// 	font-weight: bold;
+	// }
 }

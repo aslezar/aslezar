@@ -2,6 +2,11 @@ import React from "react";
 import "./navbar.scss";
 import { motion } from "framer-motion";
 import Sidebar from "../sidebar/Sidebar";
+import Github from "../../assets/github.svg";
+import Twitter from "../../assets/twitter.svg";
+import Discord from "../../assets/discord.svg";
+import LinkedIn from "../../assets/linkedin.png";
+import Mail from "../../assets/mail.png";
 
 const Navbar = () => {
 	return (
@@ -16,18 +21,34 @@ const Navbar = () => {
 					aslezar
 				</motion.span>
 				<div className="contactBtn">
-					<a href="#">
-						<img src="/3D1.jpg" alt="tempsocial" />
+					<a href="https://github.com/aslezar" target="_blank" rel="noreferrer">
+						<img src={Github} alt="Github" />
 					</a>
-					<a href="#">
-						<img src="/3D2.jpg" alt="tempsocial" />
+					<a
+						href="https://www.linkedin.com/in/shivamgarg1234/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img src={LinkedIn} alt="LinkedIn" />
 					</a>
-					<a href="#">
-						<img src="/3D3.jpg" alt="tempsocial" />
+					<a
+						href="https://twitter.com/mr_shivamgarg"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img src={Twitter} alt="Twitter" />
 					</a>
-					<a href="#">
-						<img src="/3D4.jpg" alt="tempsocial" />
+					{/* mail */}
+					<a
+						href="mailto:shivam8728.1@gmail.com"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<img src={Mail} alt="Mail" />
 					</a>
+					{/* <a href="https://discord.gg/example" target="_blank" rel="noreferrer">
+						<img src={Discord} alt="Discord" />
+					</a> */}
 				</div>
 			</div>
 		</div>

@@ -5,7 +5,7 @@ import React from "react";
 const variants = {
 	initial: {
 		//set x to current screen width
-		x: (window.innerWidth * -1) / 2,
+		x: (window.innerWidth * -1) / 4,
 		y: 100,
 		opacity: 0,
 	},
@@ -35,7 +35,7 @@ const Services = () => {
 			animate={isInView ? "animate" : "initial"}
 			// animate={"animate"}
 		>
-			<motion.div className="textContainer" variants={variants}>
+			<motion.div className="textContainer5" variants={variants}>
 				<p>
 					I focus on helping your brand grow <br />
 					and move forward

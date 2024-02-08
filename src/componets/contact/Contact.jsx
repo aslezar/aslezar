@@ -30,11 +30,11 @@ const Contact = () => {
 			})
 			.then(
 				() => {
-					console.log("SUCCESS!");
+					// console.log("SUCCESS!");
 					setError(false);
 				},
 				(error) => {
-					console.log("FAILED...", error.text);
+					// console.log("FAILED...", error.text);
 					setError(true);
 				}
 			);
@@ -50,7 +50,7 @@ const Contact = () => {
 				<motion.h1 variants={variants}>Let`s work together</motion.h1>
 				<motion.div className="item" variants={variants}>
 					<h2>Mail</h2>
-					<span>hello@react.dev</span>
+					<span>shivam8728.1@gmail.com</span>
 				</motion.div>
 				<motion.div className="item" variants={variants}>
 					<h2>Adress</h2>
@@ -63,14 +63,7 @@ const Contact = () => {
 			</motion.div>
 			<motion.div className="formContainer" variants={variants}>
 				<SCVComponent />
-				<motion.form
-					ref={formRef}
-					onSubmit={sendEmail}
-					action=""
-					initial={{ opacity: 0 }}
-					whileInView={{ opacity: 1 }}
-					transition={{ duration: 0.5, delay: 2 }}
-				>
+				<motion.form ref={formRef} onSubmit={sendEmail} action="">
 					<input type="text" name="name" required placeholder="Name" />
 					<input type="email" name="email" required placeholder="Email" />
 					<textarea
@@ -93,7 +86,7 @@ const SCVComponent = () => {
 		<motion.div
 			className="svgContainer"
 			initial={{ opacity: 1 }}
-			whileInView={{ opacity: 0 }}
+			whileInView={{ opacity: 0.25 }}
 			transition={{ duration: 0.5, delay: 1.5 }}
 		>
 			<svg
