@@ -6,6 +6,6 @@ export default defineConfig({
 	plugins: [react()],
 	build: {
 		outDir: "./docs",
+		base: "/aslezar",
 	},
-	base: "/aslezar",
 });
