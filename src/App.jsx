@@ -20,9 +20,9 @@ function App() {
 			<section id="Projects">
 				<Parallax type="projects" />
 			</section>
-			<section id="Experience">
+			{/* <section id="Experience">
 				<Parallax type="experience" />
-			</section>
+			</section> */}
 			<section id="Contact">
 				<Contact />
 			</section>

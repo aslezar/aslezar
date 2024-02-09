@@ -28,12 +28,21 @@ const Parallax = ({ type }) => {
 			}}
 		>
 			<motion.h1 style={{ y: yText }}>
-				{type === "skills"
-					? "Skills"
-					: type === "projects"
-					? "Projects"
-					: "Experience"}
+				{
+					{
+						skills: "My Skills",
+						projects: "My Projects",
+						experience: "Experience",
+					}[type]
+				}
 			</motion.h1>
+			{
+				{
+					skills: <Skills />,
+					projects: <Projects />,
+					experience: <Experience />,
+				}[type]
+			}
 			{/* <motion.div className="mountains"></motion.div> */}
 			<motion.div
 				className="planets"
@@ -45,13 +54,6 @@ const Parallax = ({ type }) => {
 				}}
 			></motion.div>
 			<motion.div className="stars" style={{ x: yBg }}></motion.div>
-			{
-				{
-					skills: <Skills />,
-					projects: <Projects />,
-					experience: <Experience />,
-				}[type]
-			}
 		</div>
 	);
 };

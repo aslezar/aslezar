@@ -1,6 +1,6 @@
 import Icons from "./componets/icons";
 
-export default [
+export const webSkills = [
 	{
 		name: "HTML",
 		svg: Icons.HTML,
@@ -29,6 +29,18 @@ export default [
 		name: "MongoDB",
 		svg: Icons.MongoDB,
 	},
+];
+export const programmingLanguages = [
+	{
+		name: "C",
+		svg: Icons.C,
+	},
+	{
+		name: "C++",
+		svg: Icons.CPP,
+	},
+];
+export const softwareDevelopmentTools = [
 	{
 		name: "Git",
 		svg: Icons.Git,
@@ -36,5 +48,13 @@ export default [
 	{
 		name: "Github",
 		svg: Icons.GitHubDark,
+	},
+	{
+		name: "VS Code",
+		svg: Icons.VSCodeDark,
+	},
+	{
+		name: "Postman",
+		svg: Icons.Postman,
 	},
 ];

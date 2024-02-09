@@ -144,6 +144,8 @@ import VIMDark from "../assets/icons/VIM-Dark.svg";
 import VIMLight from "../assets/icons/VIM-Light.svg";
 import VisualStudioDark from "../assets/icons/VisualStudio-Dark.svg";
 import VisualStudioLight from "../assets/icons/VisualStudio-Light.svg";
+import VSCodeDark from "../assets/icons/VSCode-Dark.svg";
+import VSCodeLight from "../assets/icons/VSCode-Light.svg";
 import VueJSDark from "../assets/icons/VueJS-Dark.svg";
 import VueJSLight from "../assets/icons/VueJS-Light.svg";
 import WebAssembly from "../assets/icons/WebAssembly.svg";
@@ -301,6 +303,8 @@ export default {
 	VIMLight,
 	VisualStudioDark,
 	VisualStudioLight,
+	VSCodeDark,
+	VSCodeLight,
 	VueJSDark,
 	VueJSLight,
 	WebAssembly,
