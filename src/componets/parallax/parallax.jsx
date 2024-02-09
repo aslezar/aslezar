@@ -1,6 +1,13 @@
 import React from "react";
-import "./parallax.scss";
+
+import Skills from "../skills/Skills";
+import Projects from "../projects/Projects";
+import Experience from "../experience/Experience";
+
 import { motion, useScroll, useTransform } from "framer-motion";
+
+import "./parallax.scss";
+
 const Parallax = ({ type }) => {
 	const ref = React.useRef(null);
 	const { scrollYProgress } = useScroll({
@@ -15,13 +22,17 @@ const Parallax = ({ type }) => {
 			ref={ref}
 			style={{
 				background:
-					type === "services"
+					type === "skills"
 						? "linear-gradient(180deg,#111132,#0c0c1d)"
 						: "linear-gradient(180deg,#111132,#505064)",
 			}}
 		>
 			<motion.h1 style={{ y: yText }}>
-				{type === "services" ? "What I Do?" : "What I Did?"}
+				{type === "skills"
+					? "Skills"
+					: type === "projects"
+					? "Projects"
+					: "Experience"}
 			</motion.h1>
 			{/* <motion.div className="mountains"></motion.div> */}
 			<motion.div
@@ -29,11 +40,18 @@ const Parallax = ({ type }) => {
 				style={{
 					y: yBg,
 					backgroundImage: `url(${
-						type === "services" ? "/plantes.png" : "/sun.png"
+						type === "skills" ? "/plantes.png" : "/sun.png"
 					})`,
 				}}
 			></motion.div>
 			<motion.div className="stars" style={{ x: yBg }}></motion.div>
+			{
+				{
+					skills: <Skills />,
+					projects: <Projects />,
+					experience: <Experience />,
+				}[type]
+			}
 		</div>
 	);
 };

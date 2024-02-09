@@ -56,7 +56,7 @@ const hero = () => {
 						<motion.button
 							variants={textVaraints}
 							onClick={() =>
-								document.getElementById("Services").scrollIntoView()
+								document.getElementById("Projects").scrollIntoView()
 							}
 						>
 							<svg

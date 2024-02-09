@@ -22,5 +22,10 @@
 				font-size: 20px;
 			}
 		}
+		.svgContiner {
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
 	}
 }

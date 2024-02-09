@@ -1,10 +1,9 @@
+import Cursor from "./componets/cursor/Cursor";
 import Navbar from "./componets/navbar/Navbar";
 import Hero from "./componets/hero/hero";
 import Parallax from "./componets/parallax/parallax";
-import Services from "./componets/services/Services";
-import Portfolio from "./componets/portfolio/Portfolio";
 import Contact from "./componets/contact/Contact";
-import Cursor from "./componets/cursor/Cursor";
+import About from "./componets/about/About";
 import "./app.scss";
 
 function App() {
@@ -15,18 +14,20 @@ function App() {
 				<Navbar />
 				<Hero />
 			</section>
-			<section id="Services">
-				<Parallax type="services" />
+			<section id="Skills">
+				<Parallax type="skills" />
 			</section>
-			<section>
-				<Services />
+			<section id="Projects">
+				<Parallax type="projects" />
 			</section>
-			<section id="Portfolio">
-				<Parallax type="portfolio" />
+			<section id="Experience">
+				<Parallax type="experience" />
 			</section>
-			<Portfolio />
 			<section id="Contact">
 				<Contact />
+			</section>
+			<section id="About">
+				<About />
 			</section>
 		</>
 	);

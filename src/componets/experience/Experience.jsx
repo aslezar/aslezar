@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolio.scss";
+import "./experience.scss";
 import PropTypes from "prop-types";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
