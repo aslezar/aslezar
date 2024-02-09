@@ -6,16 +6,23 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	// align-items: center;
 	overflow: hidden;
+
+	@include mobile {
+		flex-direction: column;
+	}
 	h1 {
 		font-size: 80px;
 		z-index: 5;
 		padding: 10px;
 
 		@include mobile {
-			font-size: 72px;
-			text-align: center;
+			font-size: 48px;
+			height: 100px;
+			display: flex;
+			justify-content: right;
+			align-items: end;
 		}
 	}
 	.mountains {

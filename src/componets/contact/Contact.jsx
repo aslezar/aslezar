@@ -83,12 +83,7 @@ const Contact = () => {
 
 const SCVComponent = () => {
 	return (
-		<motion.div
-			className="svgContainer"
-			initial={{ opacity: 1 }}
-			whileInView={{ opacity: 0.1 }}
-			transition={{ duration: 0.5, delay: 2 }}
-		>
+		<motion.div className="svgContainer" style={{ opacity: 0.2 }}>
 			<svg
 				fill="#000000"
 				viewBox="0 0 64 64"

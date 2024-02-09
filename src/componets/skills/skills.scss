@@ -9,14 +9,13 @@
 
 	// z-index: 10;
 
+	@include mobile {
+		max-width: unset;
+		width: 100%;
+		height: calc(100% - 100px);
+		background: transparent;
+	}
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-}
-.listContainer {
-	// @include mobile {
-	// 	flex-direction: column;
-	// 	width: 100%;
-	// 	margin: 0;
-	// }
+	justify-content: space-evenly;
 }

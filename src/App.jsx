@@ -20,17 +20,24 @@ function App() {
 			<section id="Projects">
 				<Parallax type="projects" />
 			</section>
-			{/* <section id="Experience">
+			<section id="Experience">
 				<Parallax type="experience" />
-			</section> */}
+			</section>
 			<section id="Contact">
 				<Contact />
 			</section>
-			<section id="About">
+			{/* <section id="About">
 				<About />
-			</section>
+			</section> */}
 		</>
 	);
 }
 
 export default App;
+
+// Work Experice
+//About
+//Aniamtions change
+//ts particle
+//responsiveness
+//Update Data !important

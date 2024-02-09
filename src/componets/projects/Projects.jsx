@@ -1,43 +1,21 @@
 import React from "react";
 import ProjectList from "../../ProjectList";
-import { motion, useInView } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import PropTypes from "prop-types";
 
 import "./projects.scss";
 
-const variants = {
-	initial: {
-		//set x to current screen width
-		x: (window.innerWidth * -1) / 4,
-		y: 100,
-		opacity: 0,
-	},
-	animate: {
-		x: 0,
-		opacity: 1,
-		y: 0,
-		transition: {
-			duration: 1,
-			staggerChildren: 0.1,
-		},
-	},
-};
-
 const Projects = () => {
 	const ref = React.useRef();
-	const isInView = useInView(ref, {
-		margin: "-100px",
+	const { scrollXProgress } = useScroll({
+		container: ref,
 	});
 
+	const scaleX = useSpring(scrollXProgress);
+
 	return (
-		<motion.div
-			className="projects"
-			variants={variants}
-			initial="initial"
-			ref={ref}
-			animate={isInView ? "animate" : "initial"}
-		>
-			<motion.div variants={variants} className="titleContainer">
+		<motion.div className="projects">
+			<motion.div className="titleContainer">
 				<p>
 					<motion.b whileHover={{ color: "orange" }}>Showcasing</motion.b> my
 					<motion.b whileHover={{ color: "orange" }}> Creative</motion.b>{" "}
@@ -45,11 +23,14 @@ const Projects = () => {
 				</p>
 				<hr />
 			</motion.div>
-			<motion.div variants={variants} className="projectList" id="style1">
+			<motion.div className="projectList" id="style1" ref={ref}>
 				{ProjectList.map((project, index) => (
 					<ProjectCard key={index} {...project} />
 				))}
 			</motion.div>
+			<motion.div
+				style={{ scaleX, backgroundColor: "orange", height: "5px" }}
+			/>
 		</motion.div>
 	);
 };
@@ -84,10 +65,7 @@ const ProjectCard = ({
 				))}
 			</div>
 			<h3>{title}</h3>
-			<div className="description">
-
-			{description}
-			</div>
+			<div className="description">{description}</div>
 			<div className="projectFooter">
 				<div className="time">
 					{time_from} - {time_to}

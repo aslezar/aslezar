@@ -1,102 +1,129 @@
 @import "../../app.scss";
 
-.portfolio {
-	position: relative;
-	.progress {
-		position: sticky;
-		top: 0;
-		left: 0;
-		padding-top: 50px;
-		text-align: center;
-		color: orange;
-		font-size: 36px;
+.projects {
+	background: linear-gradient(180deg, #0c0c1d, #111132);
+	height: 100%;
+	max-width: 80%;
+	min-width: 70%;
+	margin-left: auto;
 
-		@include mobile {
-			padding-top: calc(100vh - 100px);
-			font-size: 24px;
+	padding: 20px;
+}
+.titleContainer {
+	height: 10%;
+	font-size: 32px;
+	text-align: right;
+
+	p {
+		margin-right: 5%;
+		margin-bottom: 5px;
+	}
+
+	hr {
+		width: 300px;
+		margin-left: auto;
+		border: none;
+		border-top: 1px solid gray;
+	}
+}
+
+.projectList {
+	height: 90%;
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	// border: 2px solid red;
+	overflow-x: scroll;
+	gap: 15px;
+	scrollbar-width: none;
+}
+.projectList::-webkit-scrollbar {
+	width: 0px;
+}
+
+.projectCard {
+	height: 90%;
+	min-width: 400px;
+	backdrop-filter: blur(5px);
+	border: 1px solid hwb(0 100% 0% / 0.25);
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+
+	&:hover {
+		transform: scale(1.01);
+		transition: 0.5s;
+	}
+
+	.imgDiv {
+		width: 100%;
+		height: 40%;
+		padding: 5px;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 10px;
+			color: transparent;
 		}
+	}
+	.tags {
+		margin-top: 2px;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+	h3 {
+		font-size: 28px;
+	}
 
-		.progressBar {
-			height: 8px;
-			background-color: #fff;
+	.description {
+		padding: 10px;
+		font-size: 16px;
+		color: gray;
+	}
+	.projectFooter {
+		margin-top: auto;
+
+		.time {
+			text-align: right;
+			margin-bottom: 8px;
+		}
+		.buttons {
+			display: flex;
+			justify-content: space-between;
+			.repoLink,
+			.liveLink {
+				// border: 2px solid red;
+				min-width: 100px;
+				padding: 8px 10px;
+				border: none;
+				border-radius: 5px;
+				background-color: #23a7f2;
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 5px;
+					font-size: 16px;
+					color: black;
+					// background-color: #23a7f2;
+					&:hover {
+						color: white;
+					}
+				}
+			}
 		}
 	}
 }
-.container2 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-
-	.wrapper2 {
-		max-width: 1366px;
-		height: 100%;
-		margin: auto;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 50px;
-
-		@include mobile {
-			flex-direction: column;
-		}
-
-		.imgContainer2 {
-			flex: 1;
-			height: 50%;
-
-			@include mobile {
-				width: 100%;
-				max-height: 300px;
-			}
-
-			img {
-				height: 100%;
-				width: 100%;
-				object-fit: cover;
-
-				@include mobile {
-					object-fit: contain;
-				}
-			}
-		}
-		.textContainer2 {
-			flex: 1;
-			display: flex;
-			flex-direction: column;
-			gap: 30px;
-
-			@include mobile {
-				transform: none !important;
-				padding: 10px;
-				align-items: center;
-				text-align: center;
-			}
-
-			h2 {
-				font-size: 72px;
-
-				@include mobile {
-					font-size: 36px;
-				}
-			}
-			p {
-				color: gray;
-				font-size: 20px;
-				@include mobile {
-					font-size: 16px;
-				}
-			}
-			button {
-				background-color: orange;
-				border: none;
-				border-radius: 10px;
-				padding: 10px;
-				width: 200px;
-				cursor: pointer;
-			}
-		}
-	}
+.tag {
+	padding: 5px 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: darkblue;
+	color: bisque;
+	font-size: 14px;
 }

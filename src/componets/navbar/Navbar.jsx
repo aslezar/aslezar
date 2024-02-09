@@ -106,7 +106,7 @@ const SingleLink = ({ name, url, svg }) => {
 	return (
 		<a href={url} target="_blank" rel="noreferrer">
 			<div
-				className="svgContiner relative rounded-full shadow-sm shadow-blue-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
+				className="svgContiner rounded-full shadow-sm shadow-blue-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
 				style={{ color: "#007bff" }}
 				title={name}
 			>
