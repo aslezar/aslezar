@@ -12,6 +12,7 @@ const ToggleButton = ({ setOpen }) => {
 				xmlns="http://www.w3.org/2000/svg"
 			>
 				<motion.path
+					d="M7.5 7.5H22.5"
 					stroke="black"
 					strokeWidth="3"
 					strokeLinecap="round"
@@ -41,6 +42,7 @@ const ToggleButton = ({ setOpen }) => {
 					}}
 				/>
 				<motion.path
+					d="M7.5 22.5H22.5"
 					stroke="black"
 					strokeWidth="3"
 					strokeLinecap="round"
