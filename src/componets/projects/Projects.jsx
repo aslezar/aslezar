@@ -28,9 +28,7 @@ const Projects = () => {
 					<ProjectCard key={index} {...project} />
 				))}
 			</motion.div>
-			<motion.div
-				style={{ scaleX, backgroundColor: "orange", height: "5px" }}
-			/>
+			<motion.div style={{ scaleX, backgroundColor: "blue", height: "5px" }} />
 		</motion.div>
 	);
 };
@@ -55,8 +53,8 @@ const ProjectCard = ({
 					loading="lazy"
 					decoding="async"
 					data-nimg="1"
-					// src={img}
-					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkHwIfa83tAQNOjJdd9LRhjc9LNakC8v3jZnnOWc1dil6XHmsEdaab8z7DYAhcTiT3DGw&usqp=CAU"
+					src={img}
+					// src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkHwIfa83tAQNOjJdd9LRhjc9LNakC8v3jZnnOWc1dil6XHmsEdaab8z7DYAhcTiT3DGw&usqp=CAU"
 				/>
 			</div>
 			<div className="tags">

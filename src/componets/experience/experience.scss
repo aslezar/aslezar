@@ -1,22 +1,37 @@
 @import "../../app.scss";
 
-.projects {
+.experience {
 	background: linear-gradient(180deg, #0c0c1d, #111132);
 	height: 100%;
 	max-width: 80%;
 	min-width: 70%;
 	margin-left: auto;
+	overflow: hidden;
 
-	padding: 20px;
+	// padding: 20px;
+
+	// z-index: 10;
+
+	@include mobile {
+		max-width: unset;
+		width: 100%;
+		height: calc(100% - 100px);
+		margin-left: unset;
+		background: transparent;
+	}
 }
-.titleContainer {
-	height: 10%;
+.titleContainer2 {
+	height: calc(10% - 20px);
 	font-size: 32px;
 	text-align: right;
 
 	p {
 		margin-right: 5%;
 		margin-bottom: 5px;
+
+		@include mobile {
+			font-size: 18px;
+		}
 	}
 
 	hr {
@@ -27,7 +42,7 @@
 	}
 }
 
-.projectList {
+.experienceList {
 	height: 90%;
 	display: flex;
 	align-items: center;
@@ -36,12 +51,19 @@
 	overflow-x: scroll;
 	gap: 15px;
 	scrollbar-width: none;
+
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+
+	@include mobile {
+		padding: 20px;
+	}
 }
-.projectList::-webkit-scrollbar {
+.experienceList::-webkit-scrollbar {
 	width: 0px;
 }
 
-.projectCard {
+.experienceCard {
 	height: 90%;
 	min-width: 400px;
 	backdrop-filter: blur(5px);
@@ -50,15 +72,22 @@
 	padding: 10px;
 	z-index: 10;
 
+	scroll-snap-align: center;
+
 	display: flex;
 	flex-direction: column;
+	gap: 5px;
 
 	&:hover {
 		transform: scale(1.01);
 		transition: 0.5s;
 	}
 
-	.imgDiv {
+	@include mobile {
+		min-width: 80vw;
+	}
+
+	.imgDiv2 {
 		width: 100%;
 		height: 40%;
 		padding: 5px;
@@ -70,7 +99,7 @@
 			color: transparent;
 		}
 	}
-	.tags {
+	.tags2 {
 		margin-top: 2px;
 		display: flex;
 		flex-wrap: wrap;
@@ -80,19 +109,19 @@
 		font-size: 28px;
 	}
 
-	.description {
+	.description2 {
 		padding: 10px;
 		font-size: 16px;
 		color: gray;
 	}
-	.projectFooter {
+	.experienceFooter {
 		margin-top: auto;
 
-		.time {
+		.time2 {
 			text-align: right;
 			margin-bottom: 8px;
 		}
-		.buttons {
+		.buttons2 {
 			display: flex;
 			justify-content: space-between;
 			.repoLink,
@@ -119,7 +148,7 @@
 		}
 	}
 }
-.tag {
+.tag2 {
 	padding: 5px 10px;
 	border: 1px solid black;
 	border-radius: 10px;

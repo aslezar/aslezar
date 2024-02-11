@@ -1,12 +1,13 @@
 import "./skills.scss";
-import React from "react";
 import PropTypes from "prop-types";
+import { useEffect, useState } from "react";
 
 import {
 	webSkills,
 	programmingLanguages,
 	softwareDevelopmentTools,
 } from "../../SkillList";
+import { motion } from "framer-motion";
 
 const Skills = () => {
 	return (
@@ -47,7 +48,6 @@ const Skills = () => {
 		</div>
 	);
 };
-import { useEffect, useState } from "react";
 
 const SkillCard = ({ name, svg }) => {
 	const [bgColor, setBgColor] = useState({
@@ -76,7 +76,7 @@ const SkillCard = ({ name, svg }) => {
 			rgb[1] /= imageData.length / 4;
 			rgb[2] /= imageData.length / 4;
 
-			const lighterRgb = rgb.map((val) => Math.floor(val * 1.2));
+			const lighterRgb = rgb.map((val) => Math.floor(val * 1.5));
 			const lighterBgColor = `rgb(${lighterRgb[0]}, ${lighterRgb[1]}, ${lighterRgb[2]})`;
 
 			// Adjust the RGB values to create a darker shade
@@ -88,7 +88,12 @@ const SkillCard = ({ name, svg }) => {
 
 	return (
 		<>
-			<div className="select-none w-18 md:w-24 z-10 min-w-20">
+			<motion.div
+				className="select-none w-18 md:w-24 z-10 min-w-20"
+				initial={{ opacity: 0, scale: 0.9 }}
+				whileInView={{ opacity: 1, scale: 1 }}
+				transition={{ duration: 0.5 }}
+			>
 				<div
 					className="z-20 duration-200 p-[1px] rounded-xl"
 					style={{
@@ -111,7 +116,7 @@ const SkillCard = ({ name, svg }) => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	);
 };

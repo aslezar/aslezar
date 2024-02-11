@@ -28,7 +28,6 @@ export default [
 		description:
 			"Sharesketch is a collaborative real time whiteboad sharing website.",
 		liveDemo: "https://github.com/aslezar",
-		githubRepo: "https://github.com/aslezar/aslezar",
 	},
 	{
 		title: "Shivam Portfolio",

@@ -26,18 +26,14 @@ function App() {
 			<section id="Contact">
 				<Contact />
 			</section>
-			{/* <section id="About">
+			<section id="About">
 				<About />
-			</section> */}
+			</section>
 		</>
 	);
 }
 
 export default App;
 
-// Work Experice
-//About
-//Aniamtions change
-//ts particle
-//responsiveness
 //Update Data !important
+//ts particle

@@ -33,7 +33,7 @@ const Contact = () => {
 					// console.log("SUCCESS!");
 					setError(false);
 				},
-				(error) => {
+				() => {
 					// console.log("FAILED...", error.text);
 					setError(true);
 				}
@@ -54,12 +54,12 @@ const Contact = () => {
 				</motion.div>
 				<motion.div className="item" variants={variants}>
 					<h2>Adress</h2>
-					<span>hello street New York</span>
+					<span>New Delhi, India</span>
 				</motion.div>
-				<motion.div className="item" variants={variants}>
+				{/* <motion.div className="item" variants={variants}>
 					<h2>Phone</h2>
 					<span>+1 234 567 890</span>
-				</motion.div>
+				</motion.div> */}
 			</motion.div>
 			<motion.div className="formContainer" variants={variants}>
 				<SCVComponent />
