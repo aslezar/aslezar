@@ -29,6 +29,13 @@ export const webSkills = [
 		name: "MongoDB",
 		svg: Icons.MongoDB,
 	},
+	{
+		name:"MUI",
+		svg:Icons.MaterialUIDark,
+	},{
+		name:"Tailwind",
+		svg:Icons.TailwindCSSDark,
+	}
 ];
 export const programmingLanguages = [
 	{
@@ -41,6 +48,10 @@ export const programmingLanguages = [
 	},
 ];
 export const softwareDevelopmentTools = [
+	{
+		name:"Linux",
+		svg:Icons.LinuxLight,
+	},
 	{
 		name: "Git",
 		svg: Icons.Git,
@@ -56,5 +67,5 @@ export const softwareDevelopmentTools = [
 	{
 		name: "Postman",
 		svg: Icons.Postman,
-	},
+	}
 ];

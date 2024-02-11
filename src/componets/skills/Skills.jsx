@@ -16,7 +16,7 @@ const Skills = () => {
 				<h2 className="mb-5 text-[22px] md:text-[36px] text-center md:text-left">
 					Web Technologies
 				</h2>
-				<div className="skillContainer grid grid-cols-4 md:grid-cols-7 gap-5 m-auto">
+				<div className="skillContainer grid grid-cols-5 md:grid-cols-8 gap-4 md:gap-5 m-auto">
 					{webSkills.map((skill, index) => (
 						<SkillCard key={index} name={skill.name} svg={skill.svg} />
 					))}
@@ -27,7 +27,7 @@ const Skills = () => {
 					<h2 className="mb-5 text-[18px] md:text-[32px] text-center md:text-left">
 						Programming Languages
 					</h2>
-					<div className="skillContainer grid grid-cols-4 gap-5 m-auto">
+					<div className="skillContainer grid grid-cols-4 gap-4 md:gap-5 m-auto">
 						{programmingLanguages.map((skill, index) => (
 							<SkillCard key={index} name={skill.name} svg={skill.svg} />
 						))}
@@ -38,7 +38,7 @@ const Skills = () => {
 						{" "}
 						Software Development Tools
 					</h2>
-					<div className="skillContainer grid grid-cols-4 gap-5 m-auto">
+					<div className="skillContainer grid grid-cols-5 gap-4 md:gap-5 m-auto">
 						{softwareDevelopmentTools.map((skill, index) => (
 							<SkillCard key={index} name={skill.name} svg={skill.svg} />
 						))}
@@ -89,7 +89,7 @@ const SkillCard = ({ name, svg }) => {
 	return (
 		<>
 			<motion.div
-				className="select-none w-18 md:w-24 z-10 min-w-20"
+				className="select-none z-10 w-16 md:w-24 min-w-[72px] md:min-w-20"
 				initial={{ opacity: 0, scale: 0.9 }}
 				whileInView={{ opacity: 1, scale: 1 }}
 				transition={{ duration: 0.5 }}
@@ -100,17 +100,14 @@ const SkillCard = ({ name, svg }) => {
 						background: `linear-gradient(to right, ${bgColor.darkerBgColor},${bgColor.lighterBgColor})`,
 					}}
 				>
-					<div className="h-[80px] w-full bg-black rounded-t-xl flex items-center justify-center">
+					<div className="h-[72px] md:h-[80px] w-full bg-black rounded-t-xl flex items-center justify-center">
 						<img
 							src={svg}
 							alt=""
-							style={{
-								height: "40px",
-								width: "40px",
-							}}
+							className="h-[32px] w-[32px] md:h-[40px] md:w-[40px]"
 						/>
 					</div>
-					<div className="p-2 md:w-[95px] h-[30px] rounded-b-xl">
+					<div className="p-2 md:w-[95px] h-[24px] md:h-[30px] rounded-b-xl">
 						<div className="flex items-center justify-center h-full duration-100 text-sm font-semibold">
 							{name}
 						</div>
