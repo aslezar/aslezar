@@ -2,9 +2,7 @@
 
 ## Programmer | Coder | Student | Enthusiastic
 
-<!--
-- 😎 I'm currently working on a []
--->
+- 😎 I'm currently working on a [BlogMinds](https://github.com/aslezar/ShareSketch) - A Blog Websites
 
 - 👬 I'm always ready to work on projects, feel free to contact me.
 - 🌱 I'm currently learning everything.
@@ -29,19 +27,17 @@
 ## Projects
 
 Here are some of my projects that I have worked on:
-- [ShareSketch-MERN](https://sharesketch-kxge.onrender.com/)- An online whiteboard for you and your friends to draw together. [Repo](https://github.com/aslezar/ShareSketch)
-- [StockPrice-MERN](https://stockprice-eh6m.onrender.com/account/login)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/StockPrice)
-- [Task-Manager-NodeJS](https://task-manager-nodejs-bqr0.onrender.com) - Task Manager Web App website allows users to keep track of their tasks, edit them, and delete them. [Repo](https://github.com/aslezar/Task-Manager-NodeJS)
-- [Sociopedia-MERN](https://sociopedia-rxw9.onrender.com/) - A social media app with login/register functionality. Create and like post, follw or unfollow friends. [Repo](https://github.com/aslezar/Sociopedia)
-- [ShoppingCart-ComfyHouse](https://aslezar.github.io/shoopingcart-website/)- A frontend web page to show a basic implementation of shopping website. [Repo](https://github.com/aslezar/shoopingcart-website)
-- [Terminal-Chess](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/Chess)
+- [ShareSketch -MERN](https://sharesketch-kxge.onrender.com/)- An online whiteboard for you and your friends to draw together in Real time. [Repo](https://github.com/aslezar/ShareSketch)
+- [StockPrice -MERN](https://stockprice-eh6m.onrender.com/account/login)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/StockPrice)
+- [Github Users -ReactJs](https://flye-github-assignment.onrender.com/)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/fyle-github-assignment)
+- [Terminal Chess -C++](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/Chess)
 
 ## Contact Me
 
 [<img align="left" alt="mr-shivamgarg | linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="mr-shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 
 <!--
-[<img align="left" alt="mr_shivamgarg | twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="mr_shivamgarg | instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 -->
 
@@ -50,8 +46,7 @@ Here are some of my projects that I have worked on:
 -->
 
 [twitter]: https://twitter.com/mr_shivamgarg
-[linkedin]: https://www.linkedin.com/in/mrshivamgarg/
-[instagram]: https://www.instagram.com/mr_shivamgarg/
+[linkedin]: https://www.linkedin.com/in/shivamgarg1234/
 
 <!--
 **mr-shivamgarg/mr-shivamgarg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
