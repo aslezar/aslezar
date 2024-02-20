@@ -1,7 +1,7 @@
 const About = () => {
 	return (
-		<div className="about h-full max-w-[1366px] m-auto overflow-hidden">
-			<div className="container m-auto p-10 flex flex-col items-center justify-center h-full">
+		<div className="about h-full max-w-[1366px] m-auto overflow-hidden z-11">
+			<div className="container m-auto p-10 flex flex-col items-center justify-center h-full overflow-y-auto overflow-x-auto">
 				<img
 					src="https://pbs.twimg.com/profile_images/1753014886681174016/_rVYontL_400x400.jpg"
 					alt="My Photo"
