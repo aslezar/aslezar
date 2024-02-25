@@ -108,7 +108,7 @@ const SkillCard = ({ name, svg }) => {
 						/>
 					</div>
 					<div className="p-2 md:w-[95px] h-[24px] md:h-[30px] rounded-b-xl">
-						<div className="flex items-center justify-center h-full duration-100 text-sm font-semibold">
+						<div className="flex items-center justify-center h-full duration-100 font-semibold text-sm">
 							{name}
 						</div>
 					</div>
