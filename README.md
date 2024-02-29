@@ -2,7 +2,7 @@
 
 ## Programmer | Coder | Student | Enthusiastic
 
-- 😎 I'm currently working on a [BlogMinds](https://github.com/aslezar/ShareSketch) - A Blog Websites
+- 😎 I'm currently working on a [BlogMinds](https://github.com/aslezar/BlogMinds) - A Blog Websites
 
 - 👬 I'm always ready to work on projects, feel free to contact me.
 - 🌱 I'm currently learning everything.
