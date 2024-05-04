@@ -29,6 +29,7 @@
 Here are some of my projects that I have worked on:
 - [ShareSketch -MERN](https://sharesketch-kxge.onrender.com/)- An online whiteboard for you and your friends to draw together in Real time. [Repo](https://github.com/aslezar/ShareSketch)
 - [StockPrice -MERN](https://stockprice-eh6m.onrender.com/account/login)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/StockPrice)
+- [Customer Sentiment -MERN](https://google-symetrical.onrender.com)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/symmetrical-goggles)
 - [Github Users -ReactJs](https://flye-github-assignment.onrender.com/)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/fyle-github-assignment)
 - [Terminal Chess -C++](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/Chess)
 
