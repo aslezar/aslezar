@@ -2,8 +2,6 @@
 
 ## Programmer | Coder | Student | Enthusiastic
 
-- 😎 I'm currently working on a [BlogMinds](https://github.com/aslezar/BlogMinds) - A Blog Websites
-
 - 👬 I'm always ready to work on projects, feel free to contact me.
 - 🌱 I'm currently learning everything.
 - 🥅 My Goal: To start contributing in Open source project ASAP.
@@ -28,9 +26,8 @@
 
 Here are some of my projects that I have worked on:
 - [ShareSketch -MERN](https://sharesketch-kxge.onrender.com/)- An online whiteboard for you and your friends to draw together in Real time. [Repo](https://github.com/aslezar/ShareSketch)
-- [StockPrice -MERN](https://stockprice-eh6m.onrender.com/account/login)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/StockPrice)
+- [BlogMinds -MERN](https://blogminds.onrender.com/)- A cutting-edge AI-powered blogging platform, seamlessly blending content creation and user interaction for an unparalleled blogging experience. [Repo](https://github.com/aslezar/BlogMinds)
 - [Customer Sentiment -MERN](https://google-symetrical.onrender.com)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/symmetrical-goggles)
-- [Github Users -ReactJs](https://flye-github-assignment.onrender.com/)- webapp to show latest stockprice with google authentication. [Repo](https://github.com/aslezar/fyle-github-assignment)
 - [Terminal Chess -C++](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/Chess)
 
 ## Contact Me
