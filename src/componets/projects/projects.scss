@@ -65,6 +65,7 @@
 .projectCard {
 	height: 90%;
 	max-width: min(425px, 90vw);
+	min-width: 350px;
 	// max-width: 425px;
 	backdrop-filter: blur(10px);
 	border: 1px solid hwb(0 100% 0% / 0.25);

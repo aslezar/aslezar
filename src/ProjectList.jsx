@@ -1,23 +1,13 @@
 export default [
 	{
-		title: "Vetmedman",
-		img: "/vetmedman.jpg",
-		techStack: ["MongoDB", "NodeJS", "ExpressJS", "ReactJS"],
-		time_from: "Sep 2023",
-		time_to: "Feb 2024",
-		description:
-			"This is my portfolio website. It is a resume converted into website.",
-		liveDemo: "https://www.vetmedman.com/",
-	},
-	{
 		title: "BlogMinds",
-		img: "/blogmind.png",
-		techStack: ["MongoDB", "NodeJS", "ExpressJS", "ReactJS"],
-		time_from: "Jan 2023",
-		time_to: "Present",
+		img: "/imgGen-BRtGqkAP-ezgif.com-optimize.gif",
+		techStack: ["MongoDB", "NodeJS", "ExpressJS", "ReactJS","AI","MERN"],
+		time_from: "Jan 2024",
+		time_to: "May 2024",
 		description:
-			"I am currently working on this Website. This is a Blog website where everyone can write and share their blogs in a open world people who love to read.",
-		// liveDemo: "https://www.vetmedman.com/",
+			"BlogMind is an AI-powered blogging platform that suggests content and generates images. Built in MERN, it features AI text completion, a rich text editor, drag-and-drop image functionality, trending blogs, and user interaction capabilities like comments and likes for a seamless blogging experience.",
+		liveDemo: "https://blogminds.onrender.com/",
 		githubRepo: "https://github.com/aslezar/BlogMinds",
 	},
 	{
@@ -37,6 +27,16 @@ export default [
 			"ShareSketch is a collaborative drawing and idea sharing platform. It enables groups of people to draw in real-time drawing collaboration, interactive chat, and seamless sharing of ideas. The project uses Socket.IO to provide the engaging environment for users to connect, communicate, and create together.",
 		liveDemo: "https://stockprice-eh6m.onrender.com/",
 		githubRepo: "https://github.com/aslezar/ShareSketch",
+	},
+	{
+		title: "Vetmedman",
+		img: "/vetmedman.jpg",
+		techStack: ["MongoDB", "NodeJS", "ExpressJS", "ReactJS"],
+		time_from: "Sep 2023",
+		time_to: "Feb 2024",
+		description:
+			"This is my portfolio website. It is a resume converted into website.",
+		liveDemo: "https://www.vetmedman.com/",
 	},
 	{
 		title: "StockPrice",
