@@ -27,7 +27,6 @@
 Here are some of my projects that I have worked on:
 - [ShareSketch -MERN](https://sharesketch-kxge.onrender.com/)- An online whiteboard for you and your friends to draw together in Real time. [Repo](https://github.com/aslezar/ShareSketch)
 - [BlogMinds -MERN](https://blogminds.onrender.com/)- A cutting-edge AI-powered blogging platform, seamlessly blending content creation and user interaction for an unparalleled blogging experience. [Repo](https://github.com/aslezar/BlogMinds)
-- [Customer Sentiment -MERN](https://google-symetrical.onrender.com)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/symmetrical-goggles)
 - [Terminal Chess -C++](https://github.com/aslezar/Chess)- A terminal chess game for two players implemented in C++ using the concepts of (OOPs). [Repo](https://github.com/aslezar/Chess)
 
 ## Contact Me
