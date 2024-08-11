@@ -4,7 +4,7 @@
 
 - 👬 I'm always ready to work on projects, feel free to contact me.
 - 🌱 I'm currently learning everything.
-- 🥅 My Goal: To start contributing in Open source project ASAP.
+- 🥅 My Goal: To start contributing in Open source.
 - ⚡ Fun Fact: I love to make new friends.
 
 ## Skills
