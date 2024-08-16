@@ -6,6 +6,7 @@
 - 🌱 I'm currently learning everything.
 - 🥅 My Goal: To start contributing in Open source.
 - ⚡ Fun Fact: I love to make new friends.
+- My other contributions - [Linux -XFCE](https://gitlab.xfce.org/aslezar)
 
 ## Skills
 
